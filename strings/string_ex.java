@@ -34,5 +34,13 @@ public class string_ex {
         for (String word : words) {
             System.out.println(word);
         }
+        //? To lower case
+        System.out.println(message.toLowerCase());
+        //? To upper case 
+        System.out.println(message.toUpperCase());
+        //? Trim remove spaces from start and end of string
+        String message2 = "   Today is a good day   ";
+        System.out.println(message2.trim());
+
     }
 }
