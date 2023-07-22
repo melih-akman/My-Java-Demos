@@ -1,6 +1,6 @@
 package methodOverloading;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         fourTransaction fourTransaction = new fourTransaction();
         System.out.println(fourTransaction.add(2, 3));
